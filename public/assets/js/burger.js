@@ -2,12 +2,12 @@
 $(function() {
     $(".change-devoured").on("click", function(event) {
       var id = $(this).data("id");
-      var newDevoured = $(this).data("newDevoured");
+      var newDevoured = $(this).data("newdevoured");
   
       var newDevouredState = {
         devoured: newDevoured
       };
-  
+  console.log(newDevouredState);
       // Send the PUT request.
       $.ajax("/api/burgers/" + id, {
         type: "PUT",
@@ -26,8 +26,8 @@ $(function() {
       event.preventDefault();
   
       var newBurger = {
-        burger_name: $("#ca").val().trim(),
-        devoured: $("[burger_name=devoured]:checked").val().trim()
+        burger_name: $("#burg").val().trim(),
+        devoured: $("[name=devoured]:checked").val().trim()
       };
   
       // Send the POST request.
@@ -36,22 +36,7 @@ $(function() {
         data: newBurger
       }).then(
         function() {
-          console.log("created new burger");
-          // Reload the page to get the updated list
-          location.reload();
-        }
-      );
-    });
-  
-    $(".delete-burger").on("click", function(event) {
-      var id = $(this).data("id");
-  
-      // Send the DELETE request.
-      $.ajax("/api/burgers/" + id, {
-        type: "DELETE"
-      }).then(
-        function() {
-          console.log("deleted burger", id);
+          console.log("created new Burger");
           // Reload the page to get the updated list
           location.reload();
         }
@@ -59,3 +44,19 @@ $(function() {
     });
   });
   
+    // don't need a delete button right?
+  //   $(".delete-burger").on("click", function(event) {
+  //     var id = $(this).data("id");
+  
+  //     // Send the DELETE request.
+  //     $.ajax("/api/burgers/" + id, {
+  //       type: "DELETE"
+  //     }).then(
+  //       function() {
+  //         console.log("deleted burger", id);
+  //         // Reload the page to get the updated list
+  //         location.reload();
+  //       }
+  //     );
+  //   });
+  // });
