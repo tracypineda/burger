@@ -12,4 +12,4 @@ primary key(id)
 );
 
 INSERT INTO burgers (burger_name, devoured)
-VALUES ("veggie burger", "false"), ("bacon cheddar", "false"), ("buffalo burger", "false");
+VALUES ("veggie burger", false), ("bacon cheddar", false), ("buffalo burger", true);
