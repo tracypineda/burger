@@ -1,7 +1,8 @@
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background: aquamarine;
+    color: gray;
   }
   
   .label {
@@ -17,4 +18,13 @@ li {
   .form-group {
     margin-bottom: 5px;
   }
+
+  body {  
+    opacity: 0.9;
+    background: url(../img/burger.jpg)
+    no-repeat center center fixed;
+  }
+  
+
+
   
