@@ -8,7 +8,7 @@ In this assignment, I created a burger logger with MySQL, Node, Express, Handleb
 
 ## Live Deployment Link
 
-Link to video [HEROKU DEPLOYED](bamazonVideo.mp4)
+[HEROKU_DEPLOYED]( https://radiant-beyond-06040.herokuapp.com/)
 
 ## What the app does
 
