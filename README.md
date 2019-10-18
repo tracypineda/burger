@@ -8,8 +8,8 @@ In this assignment, I created a burger logger with MySQL, Node, Express, Handleb
 
 ## Live Deployment Link
 
-[HEROKU_DEPLOYED]( https://radiant-beyond-06040.herokuapp.com/)
-
+[HEROKU_DEPLOYED](https://radiant-beyond-06040.herokuapp.com/)
+ 
 ## What the app does
 
 - Eat-Da-Burger! is a restaurant app that lets users input the names of burgers they'd like to eat.
