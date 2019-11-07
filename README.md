@@ -2,13 +2,13 @@
 
 #### Handlebars Homework
 
-## Welcome to Bamazon! This is an Amazon-like storefront built with Javascript, Node.js and My SQL.
+## Welcome to Burger! 
 
 In this assignment, I created a burger logger with MySQL, Node, Express, Handlebars and a homemade ORM (yum!).
 
 ## Live Deployment Link
 
-[HEROKU_DEPLOYED](https://radiant-beyond-06040.herokuapp.com/)
+[HEROKU_DEPLOYED](https://morning-dawn-30353.herokuapp.com/)
  
 ## What the app does
 
